@@ -62,10 +62,12 @@ export default function App() {
 }
 ```
 
-## Demo
+## Demos
 
 Expo snack: https://snack.expo.dev/@mehmetkaplan/react-native-animated-layout
+
 Web demo: https://mehmetkaplan.github.io/react-native-animated-layout/
+
 ## API
 
 | Name | Description |
@@ -81,7 +83,9 @@ Each item in the `layouts` array should have;
 - or `defaultFlag: true` key-value.
 
 When `validAfterWHRatio` and `validBeforeWHRatio` exists the layout is used when Width / Height ratio is between these values.
+
 When `validAfterWHRatio` and `validBeforeWHRatio` do not exist, item with `defaultFlag: true` is used.
+
 **If no valid layout is found an exception is thrown.**
 
 | Name | Description |
