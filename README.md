@@ -11,7 +11,7 @@ yarn add react-native-animated-layout
 In the below example 3 views are located in the screen depending on the layout. Width / Height ratio is used to identify the appropriate layout.
 
 ```javascript
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Text, View } from 'react-native';
 import ReactNativeAnimatedLayout from 'react-native-animated-layout';
 
@@ -61,6 +61,11 @@ export default function App() {
 	/>;
 }
 ```
+
+## Demo
+
+Expo snack: https://snack.expo.dev/@mehmetkaplan/react-native-animated-layout
+Web demo: https://mehmetkaplan.github.io/react-native-animated-layout/
 ## API
 
 | Name | Description |
