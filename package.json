@@ -14,7 +14,8 @@
 		"dist"
 	],
 	"scripts": {
-		"prepare": "bob build"
+		"prepare": "bob build",
+		"gh-pages": "gh-pages -d example/web-build"
 	},
 	"peerDependencies": {
 		"react": "*",
@@ -27,6 +28,7 @@
 	},
 	"devDependencies": {
 		"@react-native-community/bob": "^0.17.1",
+		"gh-pages": "^4.0.0",
 		"metro-react-native-babel-preset": "^0.71.1"
 	},
 	"@react-native-community/bob": {
