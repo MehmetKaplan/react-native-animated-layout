@@ -15,7 +15,7 @@
 	],
 	"scripts": {
 		"prepare": "bob build",
-		"gh-pages": "gh-pages -d example/web-build"
+		"gh-pages": "cd example && expo build:web && cd - && gh-pages -d example/web-build"
 	},
 	"peerDependencies": {
 		"react": "*",
