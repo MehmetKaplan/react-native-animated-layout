@@ -25,7 +25,7 @@ export default function App() {
 			validBeforeWHRatio: 999, // infinity
 			views: [
 				{ top: 0, bottom: 1, left: 0, right: 0.5, children: redView },
-				{ top: 0.5, bottom: 1, left: 0.5, right: 1, children: blueView },
+				{ top: 0.5, bottom: 1, left: 0.5, right: 1, children: blueView, notifyFunction: (coordinates) => {console.log(`Coordinates for \x1b[0;34mBLUE\x1b[0m view are: ${JSON.stringify(coordinates)}`)} },
 				{ top: 0, bottom: 0.5, left: 0.5, right: 1, children: greenView },
 			]
 		},
