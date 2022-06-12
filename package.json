@@ -1,7 +1,7 @@
 {
 	"name": "react-native-animated-layout",
 	"description": "An absolute responsive layout for react-native and react-native-web projects.",
-	"version": "1.0.6",
+	"version": "1.0.7",
 	"private": false,
 	"author": "MehmetKaplan",
 	"license": "MIT",
