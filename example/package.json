@@ -1,6 +1,6 @@
 {
   "name": "example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "node_modules/expo/AppEntry.js",
   "homepage": "https://MehmetKaplan.github.io/react-native-animated-layout",
   "scripts": {
