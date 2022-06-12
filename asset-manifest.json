@@ -1,22 +1,22 @@
 {
   "files": {
-    "app.js": "/react-native-animated-layout/example/static/js/app.9a631668.chunk.js",
-    "app.js.map": "/react-native-animated-layout/example/static/js/app.9a631668.chunk.js.map",
-    "runtime~app.js": "/react-native-animated-layout/example/static/js/runtime~app.ccd72abe.js",
-    "runtime~app.js.map": "/react-native-animated-layout/example/static/js/runtime~app.ccd72abe.js.map",
-    "static/js/2.4e840ee6.chunk.js": "/react-native-animated-layout/example/static/js/2.4e840ee6.chunk.js",
-    "static/js/2.4e840ee6.chunk.js.map": "/react-native-animated-layout/example/static/js/2.4e840ee6.chunk.js.map",
-    "favicon-16.png": "/react-native-animated-layout/example/favicon-16.png",
-    "favicon-32.png": "/react-native-animated-layout/example/favicon-32.png",
-    "favicon.ico": "/react-native-animated-layout/example/favicon.ico",
-    "index.html": "/react-native-animated-layout/example/index.html",
-    "manifest.json": "/react-native-animated-layout/example/manifest.json",
-    "serve.json": "/react-native-animated-layout/example/serve.json",
-    "static/js/2.4e840ee6.chunk.js.LICENSE.txt": "/react-native-animated-layout/example/static/js/2.4e840ee6.chunk.js.LICENSE.txt"
+    "app.js": "/react-native-animated-layout/static/js/app.9a631668.chunk.js",
+    "app.js.map": "/react-native-animated-layout/static/js/app.9a631668.chunk.js.map",
+    "runtime~app.js": "/react-native-animated-layout/static/js/runtime~app.4ca9a410.js",
+    "runtime~app.js.map": "/react-native-animated-layout/static/js/runtime~app.4ca9a410.js.map",
+    "static/js/2.7904fdfe.chunk.js": "/react-native-animated-layout/static/js/2.7904fdfe.chunk.js",
+    "static/js/2.7904fdfe.chunk.js.map": "/react-native-animated-layout/static/js/2.7904fdfe.chunk.js.map",
+    "favicon-16.png": "/react-native-animated-layout/favicon-16.png",
+    "favicon-32.png": "/react-native-animated-layout/favicon-32.png",
+    "favicon.ico": "/react-native-animated-layout/favicon.ico",
+    "index.html": "/react-native-animated-layout/index.html",
+    "manifest.json": "/react-native-animated-layout/manifest.json",
+    "serve.json": "/react-native-animated-layout/serve.json",
+    "static/js/2.7904fdfe.chunk.js.LICENSE.txt": "/react-native-animated-layout/static/js/2.7904fdfe.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime~app.ccd72abe.js",
-    "static/js/2.4e840ee6.chunk.js",
+    "static/js/runtime~app.4ca9a410.js",
+    "static/js/2.7904fdfe.chunk.js",
     "static/js/app.9a631668.chunk.js"
   ]
 }
