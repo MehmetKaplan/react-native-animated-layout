@@ -1,7 +1,7 @@
 {
 	"name": "react-native-animated-layout",
 	"description": "An absolute responsive layout for react-native and react-native-web projects.",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"private": false,
 	"author": "MehmetKaplan",
 	"license": "MIT",
@@ -15,7 +15,7 @@
 	],
 	"scripts": {
 		"prepare": "bob build",
-		"npm-publish": "yarn version --patch && yarn prepare && npm publish",
+		"npm-publish": "yarn version --patch && yarn prepare && npm login && npm publish",
 		"gh-pages": "cd example && expo build:web && cd - && git add -A && git commit -m \"github page deployment\" --quiet && git push && gh-pages -d example/web-build"
 	},
 	"peerDependencies": {
