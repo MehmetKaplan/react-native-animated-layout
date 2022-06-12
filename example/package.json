@@ -2,7 +2,7 @@
   "name": "example",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
-  "homepage": "http://MehmetKaplan.github.io/react-native-animated-layout/example",
+  "homepage": "https://MehmetKaplan.github.io/react-native-animated-layout/example",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
