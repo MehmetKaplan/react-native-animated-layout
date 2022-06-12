@@ -1,22 +1,22 @@
 {
   "files": {
-    "app.js": "/react-native-animated-layout/static/js/app.9a631668.chunk.js",
-    "app.js.map": "/react-native-animated-layout/static/js/app.9a631668.chunk.js.map",
+    "app.js": "/react-native-animated-layout/static/js/app.dbd42baf.chunk.js",
+    "app.js.map": "/react-native-animated-layout/static/js/app.dbd42baf.chunk.js.map",
     "runtime~app.js": "/react-native-animated-layout/static/js/runtime~app.4ca9a410.js",
     "runtime~app.js.map": "/react-native-animated-layout/static/js/runtime~app.4ca9a410.js.map",
-    "static/js/2.7904fdfe.chunk.js": "/react-native-animated-layout/static/js/2.7904fdfe.chunk.js",
-    "static/js/2.7904fdfe.chunk.js.map": "/react-native-animated-layout/static/js/2.7904fdfe.chunk.js.map",
+    "static/js/2.1074746d.chunk.js": "/react-native-animated-layout/static/js/2.1074746d.chunk.js",
+    "static/js/2.1074746d.chunk.js.map": "/react-native-animated-layout/static/js/2.1074746d.chunk.js.map",
     "favicon-16.png": "/react-native-animated-layout/favicon-16.png",
     "favicon-32.png": "/react-native-animated-layout/favicon-32.png",
     "favicon.ico": "/react-native-animated-layout/favicon.ico",
     "index.html": "/react-native-animated-layout/index.html",
     "manifest.json": "/react-native-animated-layout/manifest.json",
     "serve.json": "/react-native-animated-layout/serve.json",
-    "static/js/2.7904fdfe.chunk.js.LICENSE.txt": "/react-native-animated-layout/static/js/2.7904fdfe.chunk.js.LICENSE.txt"
+    "static/js/2.1074746d.chunk.js.LICENSE.txt": "/react-native-animated-layout/static/js/2.1074746d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime~app.4ca9a410.js",
-    "static/js/2.7904fdfe.chunk.js",
-    "static/js/app.9a631668.chunk.js"
+    "static/js/2.1074746d.chunk.js",
+    "static/js/app.dbd42baf.chunk.js"
   ]
 }
