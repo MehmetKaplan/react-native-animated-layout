@@ -107,6 +107,7 @@ When `validAfterWHRatio` and `validBeforeWHRatio` do not exist, item with `defau
 | `left` | A Number, between 0 and 1. The value represents the position of the left edge of the view from left of the current screen. | 
 | `right` | A Number, between 0 and 1. The value represents the position of the right edge of the view from **left** of the current screen. |
 | `children` | The content of the view that is placed responsively. |
+| `notifyFunction` | Callback when the related view is relocated. A json object with the `top`, `right`, `bottom`, `left` values is passed. |
 
 ## License
 
