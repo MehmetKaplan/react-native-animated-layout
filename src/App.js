@@ -38,7 +38,7 @@ export default function ReactNativeAnimatedLayout(props) {
 		const activeLayout_ = props.layouts.filter(layout => {
 			// better to depict cases explicitly
 			if (layout.defaultFlag) return true;
-			if ((layout.validAfterWHRatio < whRatio) && (whRatio < layout.validBeforeWHRatio)) return true;
+			if ((layout.validAfterWHRatio <= whRatio) && (whRatio <= layout.validBeforeWHRatio)) return true;
 			return false;
 		})
 			.sort((x, y) => y.defaultFlag ? -1 : 1);
