@@ -6,6 +6,8 @@ A responsive layout with `react-native-reanimated`'s `Animated.View`s.
 yarn add react-native-animated-layout
 ```
 
+Make sure [`reanimated`](https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/installation/) is installed already, it is a peer dependency. If not installed, follow its instructions as stated [here](https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/installation/).
+
 ## Usage
 
 In the below example 3 views are located in the screen depending on the layout. Width / Height ratio is used to identify the appropriate layout.
@@ -98,7 +100,7 @@ When `validAfterWHRatio` and `validBeforeWHRatio` do not exist, item with `defau
 | `validAfterWHRatio` | The width / height lower bound, to be used together with `validBeforeWHRatio` | 
 | `views` | The contents of the views and their coordinates as ratios. Refer to the below views table. |
 
-#### views array individual item details
+#### Individual item details for the `views` array:
 
 | Name | Description |
 |------|-------------|
@@ -109,13 +111,38 @@ When `validAfterWHRatio` and `validBeforeWHRatio` do not exist, item with `defau
 | `children` | The content of the view that is placed responsively. |
 | `notifyFunction` | Callback when the related view is relocated. A json object with the `top`, `right`, `bottom`, `left` values is passed. Must be used catiously in order to avoid unintended rerender risks, ie. it should not initiate a chain of funtions that updates the `props.rerender`. It can cause unnecessary rerenders. |
 
+## Re-rendering logic
+
+Since the `layouts` is an array, its value change does not automatically trigger a rerender. Although the explicit `rerender` parameter may help for some cases, it is quite important to make the initial design according to the needs. Not always you will want to render everything. So the appropriate method is to have different functional components and those components should track their own parameters for rerenders. 
+
+For example, referring to the above usage example, the following part:
+
+```jsx
+	const redView = <View style={{ backgroundColor: 'red', height: '100%', width: '100%', }}><Text>{"I am the red view"}</Text></View>;
+```
+
+can be refactored and improved as;
+
+```jsx
+function RedView(props){
+	useEffect(()=>{
+		setState(...)
+	}, [props. ...])
+	return <View state={state} style={{ backgroundColor: 'red', height: '100%', width: '100%', }}>{props.children}</View>;
+}
+```
+and
+```jsx
+	const redView = <RedView props=...><Text>{"I am the red view"}</Text></RedView>;
+```
+
 ## License
 
 The license is MIT and full text [here](LICENSE).
 
 ### Used Modules
 
-* react license [here](./OtherLicenses/react.txt)
-* react-native license [here](./OtherLicenses/react-native.txt)
-* react-native-web license [here](./OtherLicenses/react-native-web.txt)
-* react-native-reanimated license [here](./OtherLicenses/react-native-reanimated.txt)
+* react license [here](./OtherLicenses/react.txt).
+* react-native license [here](./OtherLicenses/react-native.txt).
+* react-native-web license [here](./OtherLicenses/react-native-web.txt).
+* react-native-reanimated license [here](./OtherLicenses/react-native-reanimated.txt).
