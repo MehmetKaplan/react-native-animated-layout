@@ -1,22 +1,18 @@
 {
   "files": {
-    "app.js": "/react-native-animated-layout/static/js/app.6646c1e4.chunk.js",
-    "app.js.map": "/react-native-animated-layout/static/js/app.6646c1e4.chunk.js.map",
-    "runtime~app.js": "/react-native-animated-layout/static/js/runtime~app.4ca9a410.js",
-    "runtime~app.js.map": "/react-native-animated-layout/static/js/runtime~app.4ca9a410.js.map",
-    "static/js/2.f4667e5c.chunk.js": "/react-native-animated-layout/static/js/2.f4667e5c.chunk.js",
-    "static/js/2.f4667e5c.chunk.js.map": "/react-native-animated-layout/static/js/2.f4667e5c.chunk.js.map",
-    "favicon-16.png": "/react-native-animated-layout/favicon-16.png",
-    "favicon-32.png": "/react-native-animated-layout/favicon-32.png",
+    "main.js": "/react-native-animated-layout/static/js/main.24cd95f4.js",
+    "static/js/989.de9c541a.js": "/react-native-animated-layout/static/js/989.de9c541a.js",
     "favicon.ico": "/react-native-animated-layout/favicon.ico",
     "index.html": "/react-native-animated-layout/index.html",
-    "manifest.json": "/react-native-animated-layout/manifest.json",
+    "favicon-32.png": "/react-native-animated-layout/favicon-32.png",
+    "favicon-16.png": "/react-native-animated-layout/favicon-16.png",
     "serve.json": "/react-native-animated-layout/serve.json",
-    "static/js/2.f4667e5c.chunk.js.LICENSE.txt": "/react-native-animated-layout/static/js/2.f4667e5c.chunk.js.LICENSE.txt"
+    "manifest.json": "/react-native-animated-layout/manifest.json",
+    "main.24cd95f4.js.map": "/react-native-animated-layout/static/js/main.24cd95f4.js.map",
+    "989.de9c541a.js.map": "/react-native-animated-layout/static/js/989.de9c541a.js.map"
   },
   "entrypoints": [
-    "static/js/runtime~app.4ca9a410.js",
-    "static/js/2.f4667e5c.chunk.js",
-    "static/js/app.6646c1e4.chunk.js"
+    "static/js/989.de9c541a.js",
+    "static/js/main.24cd95f4.js"
   ]
 }
