@@ -15,7 +15,7 @@
 	],
 	"scripts": {
 		"prepare": "bob build",
-		"gh-pages": "cd example && npx expo export:web && cd - && git add -A && git commit -m \"github page deployment\" --quiet && git push && gh-pages -d example/web-build"
+		"gh-pages": "cd example && npx expo build:web && cd - && git add -A && git commit -m \"github page deployment\" --quiet && git push && gh-pages -d example/web-build"
 	},
 	"peerDependencies": {
 		"react": "*",
